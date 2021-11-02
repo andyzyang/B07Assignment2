@@ -1,0 +1,13 @@
+What did I do last time?
+    - worked on JShell to continually take input
+    - worked on error checker to check if command exists
+    - worked on Console
+    - worked on input parsing
+
+What do I plan to do now?
+    - test the input parsing code
+    - include the working path in the shell prompt
+    - work on the parser
+
+Am I blocked on anything?
+    - need a file system to print working directory in the shell prompt

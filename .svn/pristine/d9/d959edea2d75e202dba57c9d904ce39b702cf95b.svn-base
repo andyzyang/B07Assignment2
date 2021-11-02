@@ -1,0 +1,16 @@
+Class name: Grep
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Accepts much as 3 arguments
+* Prints to console all lines in the last argument that contain the second last agrument
+* If the second argument is -r and the last argument is a directory, then traverse through each
+  file in the directory and print the file's name containing the second last argument in the
+  format (file path): (line containing the second last argument)
+
+Collaborators:
+* Console
+* File
+* InvalidArgumentException
+* Environments

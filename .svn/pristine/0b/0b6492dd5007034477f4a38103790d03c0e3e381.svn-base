@@ -1,0 +1,99 @@
+//Sprint 2 Backlog.
+June 22 to June 28
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to print a string to the console from the shell
+b) As a user, I want to append a string to a file from the shell
+c) As a user, I want to store a string to a file
+d) As a user, I want to be able to get the documentation of any command
+e) As a user, I want to list all files in the working directory
+f) As a user, I want to list all files in any given directories
+g) As a user, I want ls to print the filename if the given path is a file
+h) As a user, I want pushd to save my current working directory into a directory stack so that I can pop when I want
+i) As a user, I want popd to remove that latest entry in the directory stack and change my working directory to that one
+j) As a user, I want history to list a given number of commands I entered from least recent to most recent
+k) As a user, I want cat to display the contents of any files, each file separated by a line break
+l) As a user, I want shell to retain files and directories until shut down, so that I can interact with file systems
+m) As a user, I want the shell to show an error when I input a command with invalid arguments
+n) As a user, I want tree to display the entire filesystem as a tree
+o) As a user, I want filenames to only contain 0-9, a-z, A-Z
+p) As a user, I want to be able to find a file by name given paths
+
+Specific tasks to be accomplished:
+  0. Maintain crcCards
+a-1. Create code to parse strings for echo argument
+a-2. Code echo so that it prints a string to the console when given no redirection argument
+a-3. Test the string parser
+a-4. Fix any errors found
+b-1. Create code to parse redirection arguments for appending to file for echo
+b-2. Parse the given path and check if valid
+b-3. Create the file if necessary
+b-4. Append the string to the file
+b-5. Test the redirection argument parser for appending to file
+c-1. Create code to parse redirection arguments for writing to file for echo
+c-2. Parse the given path and check if valid
+c-3. Create the file if necessary
+c-4. Write the string to the file
+c-5. Test the redirection argument parser for writing to file
+c-6. Fix any errors found
+d-1. Create documentation text for all commands
+d-2. Allow documentation to be accessed by commands that prints it
+d-3. Check if documentation is correct for every command
+e-1. Add access of directories to the ls class
+e-2. Change the execute method of ls to print all directories
+e-3. Test the ls command
+e-4. Fix any errors found
+f-1. Add access to any directory provided by PATH for the ls class
+f-2. Add additional execute method for PATHs instead of directories
+f-3. Test the additional ls function
+f-4. Fix any errors found
+g-1. Add ability for ls to print the filename if the directory given is a file
+g-2. Add ability for ls to print the filename if the PATH given is a file
+g-3. Test the additional ls function
+g-4. Fix any errors found
+h-1. Implement a dynamic stack for pushd and popd commands
+h-2. Write code to allow the pushing of directories onto a stack
+h-3. Test the command
+h-4. Fix any errors found
+i-1. Write code so popd removes the last entry in a stack
+i-2. Cd in the directory removed by popd
+i-3. Let popd check for errors
+i-4. Test the popd command
+i-5. Fix any errors found
+j-1. Add storage of past commands
+j-2. Allow the execute method of history to print out the past commands from history
+j-3. Test out history with various amounts of command history
+j-4. Fix any errors found
+k-1. Allow the cat class to access file objects
+k-2. Add the ability to print out the contents of a file object separated by line breaks
+k-3. Test the cat class on files
+k-4. Fix any errors found
+l-1. Make file objects in the JShell
+l-2. Make directory objects in the JShell
+l-3. Add intractability with commands and files/directories
+l-4. Test if the files/directories are retained until shell shutdown
+l-5. Test files/directories with commands
+l-6. Fix any errors found
+m-1. Decide how to handle errors in command arguments
+m-2. Decide what message to show to the user
+n-1. Make tree print a tree of the filesystem
+o-1. Reject all paths that contain other characters
+p-1. Decide how to parse flags
+p-2. Parse the argument for find
+p-3. Make directories recursively searchable
+
+
+These tasks are assigned as follows:
+
+User: Andy
+Tasks: 0, e-1, e-2, e-3, e-4, f-1, f-2, f-3, f-4, g-1, g-2, g-3, g-4, h-3, h-4, d-1, p-1, p-2
+
+User: Peter
+Tasks: 0, d-1, d-2, d-3, k-1, k-2, k-3, k-4, l-1, l-2, l-3, l-4, l-5, l-6, m-1, m-2, p-1, p-2
+
+User: Gabrian
+Tasks: 0, i-1, i-2, i-3, i-4, i-5, j-1, j-2, j-3, j-4, k-1, k-2, k-3, d-1, o-1
+
+User: Jia
+Tasks: 0, a-1, a-2, a-3, a-4, b-1, b-2, b-3, b-4, b-5, c-1, c-2, c-3, c-4, c-5, c-6, h-1, h-2, n-1, p-3

@@ -1,0 +1,12 @@
+Class name: Path
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Get the file the path points to
+* Get all the files in the way to the specified file
+
+Collaborators:
+* Directory
+* General
+* FileSystem

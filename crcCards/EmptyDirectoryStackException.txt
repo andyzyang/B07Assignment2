@@ -1,0 +1,8 @@
+Class name: EmptyDirectoryStackException
+Parent class: ShellException
+Subclasses:
+
+Responsibilities:
+* Thrown when trying to pop from the directory stack when it's empty
+
+Collaborators:

@@ -1,0 +1,9 @@
+Class name: InvalidCommandException
+Parent class: ShellExceptions
+Subclasses:
+
+Responsibilities:
+* Thrown when the user tries to use an invalid command
+
+Collaborators:
+

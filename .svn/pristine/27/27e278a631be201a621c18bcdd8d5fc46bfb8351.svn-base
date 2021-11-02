@@ -1,0 +1,11 @@
+Class name: Popd
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Changing the current directory into the latest entry of the directory stack
+
+Collaborators:
+* EmptyDirectoryStackException
+* InvalidArgumentException
+* FileSystem

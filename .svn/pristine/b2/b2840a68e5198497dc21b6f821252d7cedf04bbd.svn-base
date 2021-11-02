@@ -1,0 +1,8 @@
+Class name: ShellException
+Parent class: RuntimeException
+Subclass: EmptyDirectoryStackException, InvalidArgumentException, InvalidCommandException
+
+Responsibilities:
+* Thrown when an executable encounters an error
+
+Collaborators:

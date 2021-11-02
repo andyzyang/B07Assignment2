@@ -1,0 +1,13 @@
+Class name: Environment
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Stores directory stack
+* Stores the input history
+* Stores available commands
+* Stores the file system
+
+Collaborators:
+* FileSystem
+* Directory

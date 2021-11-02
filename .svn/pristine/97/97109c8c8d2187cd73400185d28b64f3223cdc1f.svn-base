@@ -1,0 +1,10 @@
+Class name: File
+Parent class: General
+Subclasses:
+
+Responsibilities:
+* Set stored text
+* Get stored text
+* Append to stored text
+
+Collaborators:

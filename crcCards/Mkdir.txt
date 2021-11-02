@@ -1,0 +1,15 @@
+Class name: Mkdir
+Parent class: Executables
+Subclasses:
+
+Responsibilities:
+* Create a directory
+* Accepts at least 1 argument
+* If no path/directory is specified, create a directory in the working directory
+* If a path is given, create a directory at the path
+* If a directory is given, create a directory to that directory from the working directory
+
+Collaborators:
+* Directory
+* InvalidArgumentException
+* Path

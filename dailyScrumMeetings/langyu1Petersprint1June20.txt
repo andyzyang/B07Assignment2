@@ -1,0 +1,10 @@
+What I did last time
+	- Not much, reworked exit and JShell
+	- Started planning file directory
+
+What I plan to do now
+	- Finalize how directory works
+
+Am I blocked on anything
+	- Communication breakdown with group
+	- Not sure if implementation is correct

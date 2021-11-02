@@ -1,0 +1,17 @@
+Class name: Cd
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Change current directory to the one specified
+* Change current directory to the path specified
+* Must receive exactly one argument
+* The argument can either be a directory or a full path
+* Foot of the file system is designated as /(A single slash)
+
+Collaborators:
+* Path
+* FileSystem
+* InvalidArgumentException
+* Environment
+* Directory

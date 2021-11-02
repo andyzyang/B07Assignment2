@@ -1,0 +1,13 @@
+Class name: FileSystem
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Stores the current working directory
+* Stores the root directory
+* Get the working directory
+* Get the root directory
+
+Collaborators:
+* Directory
+* File

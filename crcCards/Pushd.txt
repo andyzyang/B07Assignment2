@@ -1,0 +1,13 @@
+Class name: Pushd
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Saving the current working directory into a directory stack
+* Changing the current working directory into another one
+
+Collaborators:
+* InvalidArgumentException
+* Directory
+* FileSystem
+* Path

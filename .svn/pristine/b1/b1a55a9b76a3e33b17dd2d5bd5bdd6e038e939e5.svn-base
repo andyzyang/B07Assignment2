@@ -1,0 +1,21 @@
+Class name: Find
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Accepts at least 5 arguments
+* The first to fifth last argument are paths to search in
+* The fourth last is -type
+* The third last specifies the type of the file, either d or f
+* The second last is -name
+* The last specifies the name of the file to search in
+* If a path given is invalid, print an error for that path
+* Path is relative to the absolute path
+* Display the absolute paths to the found files
+
+Collaborators:
+* InvalidArgumentException
+* Directory
+* File
+* General
+* Path

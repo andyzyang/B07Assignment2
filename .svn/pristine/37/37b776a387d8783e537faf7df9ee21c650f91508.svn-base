@@ -1,0 +1,17 @@
+Class name: Tree
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Accepts no arguments
+* When the command is called, print out the path from the root directory in a tree in this format
+* Print \ at the top
+* Print tabs and directories until one with a subdirectory
+* Print one extra tab and the subdirectory until one of those has a subdirectory
+* Repeat until last directory is reached
+
+Collaborators:
+* General
+* Directory
+* FileSystem
+* InvalidArgumentException

@@ -1,0 +1,10 @@
+What did I do last time?
+	- implement curl command
+	- work on implementing redirection
+
+What do I plan to do now?
+	- finish implementing redirection
+	- finish FileWriter class
+
+Am I blocked on anything?
+	- parsing redirection argument

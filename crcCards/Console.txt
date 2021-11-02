@@ -1,0 +1,8 @@
+Class name: Console
+Parent class: Output
+Subclasses:
+
+Responsibilities:
+* Print to console
+
+Collaborators:

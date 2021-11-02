@@ -1,0 +1,16 @@
+Class name: Cat
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Display the contexts of all files listed
+* Must receive at least one file argument
+* Can receive as many file arguments as possible
+* Arguments that are invalid are reported in console and all other arguments are still processed
+* The contents of each file should be separated in some way
+
+Collaborators:
+* Console
+* File
+* InvalidArgumentException
+* Environment

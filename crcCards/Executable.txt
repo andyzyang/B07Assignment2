@@ -1,0 +1,13 @@
+Class name: Executable
+Parent class:
+Subclasses: Cat, Cd, Echo, Exit, History, Ls, Man, Popd, Pushd, Pwd, Find,
+            Tree, Mkdir
+
+Responsibilities:
+* Execute self given argument
+* Get the manual
+
+Collaborators:
+* Environment
+* ShellException
+* Argument

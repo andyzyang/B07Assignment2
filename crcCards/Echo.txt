@@ -1,0 +1,15 @@
+Class name: Echo
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Print to output a string
+* Create a new file with its content being the string
+* Replace a file with its content being the string
+* Append to a file the string
+
+Collaborators:
+* Console
+* Path
+* File
+* InvalidArgumentException

@@ -1,0 +1,12 @@
+a) What did I work on last time?
+- started work on cp command
+- implemented clone for general files
+
+b) What do I plan to work on now?
+- Implement clone for files and directories
+- Complete cp
+- Test cp
+- Move on to next tasks
+
+c) Am I blocked on anything?
+- Not yet

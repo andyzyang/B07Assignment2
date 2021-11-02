@@ -1,0 +1,10 @@
+What did I do last time?
+	- Add grep -r option
+	- add !number function properly
+
+What do I plan to do now?
+	- write report for A2
+	- create mock testing system
+
+Am I blocked on anything?
+	- No

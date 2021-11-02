@@ -1,0 +1,66 @@
+//Sprint 1 Backlog.
+June 15 to June 21
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to be able to enter commands into the command line, so that the shell system can process the command
+b) As a user, I want shell outputs to be sent to the command window, so that I can read the output
+c) As a user, I want the shell to show an error when I input a command that does not exist
+d) As a user, I want the shell to show an error when I input a command with invalid arguments
+e) As a user, I want shell to retain files and directories until shut down, so that I can interact with file systems
+f) As a user, I want the shell to exit when I type exit
+g) As a user, I want to create directories in current or given path
+h) As a user, I want to be able to change my working directory
+i) As a user, I want pwd to print the path of the working directory, so that I can get the directory information
+j) As a user, if my commands are not valid, then the shell should let me enter another prompt
+k) As a user, I should see my current working directory on the shell input prompt
+
+Specific tasks to be accomplished:
+  0. Create new CRCards, update and remove CRCards
+a-1. (Input) Start coding a class to get user's input
+a-2. (Input) Parse the input through an interpreter
+a-3. (Input) Test the code in Input Class
+a-3. (JShell) Use the input class to continually take input from user
+a-4. (JShell) Test if everything works correctly
+a-5. (Commands) Write the Commands class which will represent the available commands
+a-6. (OutputCommands) Write the class that represents commands that give output
+a-7. (InternalCommands) Write the class that represents commands that don't give output
+b-1. (Output) Start coding a parent output class
+b-2. (Console) Start coding a Console class, using Output class as the parent
+b-3. (Console, Output) Have Console print a message to the console while getting the message from the parent Output class
+b-4. (Console, Output) Test that everything works and it prints properly
+c-1. (Error) Start coding the error checker
+c-2. (Error) Have Error class check if the command exists
+c-3. (Error) Have Error class collaborate with Console to print an error message
+d-1. (Error) Have error class check if the number of arguments is right, take into account optional flags
+d-2. (Error) Have error class check if the specified path/file/directory exists, by letting it collaborate with FileSystem class
+e-1. (FileSystem) Start coding the FileSystem class that will be used to hold our information
+e-2. (FileSystem) Have it store all existing paths, directories, and files in our file system
+e-3. (FileSystem) Also let it store current working directory
+e-4. (General) Write the General class which is a parent of directories or files
+e-5. (File) Write the File class which will represent a file
+e-6. (Directory) Write the Directory class which will represent a directory
+f-1. (Exit) Write code to let the user quit the program
+f-2. (Exit) Test the exit class
+h-1. (WorkingDirectory) Write the class for the current working directory of the user, should be a children of the Directory class
+h-2. (Cd) Write the code to allow the user to change working directory
+h-3. (Cd) Test the Cd command
+i-1. (Pwd) Write the Pwd class to get current directory
+i-2. (Pwd) Test it
+j-1. (JShell) Code the JShell so that it prompts the user for another input if what they enters is invalid
+k-1. (JShell) Code the JShell so that the prompt includes the current working directory
+
+
+These tasks are assigned as follows:
+
+User: Andy
+Tasks: 0, e-1, e-2, e-3, e-4, e-5, e-6, h-1, h-2, i-1
+
+User: Peter
+Tasks: j-1, k-1, f-1, f-2, a-1, a-2, a-3, h-3
+
+User: Gabrian
+Tasks: 0, a-4, a-5, a-6, a-7, c-3, d-1, d-2, i-2
+
+User: Jia
+Tasks: a-1, a-2, a-3, b-1, b-2, c-1, c-2, k-1

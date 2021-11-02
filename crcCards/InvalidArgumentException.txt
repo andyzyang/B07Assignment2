@@ -1,0 +1,8 @@
+Class name: InvalidArgumentException
+Parent class: ShellExceptions
+Subclasses:
+
+Responsibilities:
+* Thrown when the user supplies invalid arguments to a command
+
+Collaborators:

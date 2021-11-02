@@ -1,0 +1,12 @@
+Class name: Man
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Display the manual of a command
+* Accepts one argument, the command name
+* If the command does not exist in the command map, throw exception as well
+
+Collaborators:
+* Console
+* InvalidArgumentException

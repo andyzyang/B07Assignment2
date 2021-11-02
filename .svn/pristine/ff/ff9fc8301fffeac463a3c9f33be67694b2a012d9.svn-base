@@ -1,0 +1,16 @@
+What did I do last time?
+-Worked on FileSystem, File, General, Directory
+-Decided that WorkingDirectory was not needed
+-Decided that RootDirectory was needed to be distinct from normal directories
+-Wrote an instance variable for working directory
+
+What do I plan to do now?
+-Update the FileSystem structure after talking with teammates
+-Test the FileSystem
+-work on Pwd
+-work on Cd
+-update crc cards
+
+Am I blocked on anything?
+-Need to confer with teammates on what should be included in FileSystem
+-Need the FileSystem to cooperate with the commands

@@ -1,0 +1,1787 @@
++++ASSIGNMENT2 TEAM MEMBER CONTRIBUTION+++
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT1+++
+Redirecting to URL 'https://markus.utsc.utoronto.ca/svn/cscb07s18/group_0331/Assignment2':
+A    Assignment2/crcCards
+A    Assignment2/dailyScrumMeetings
+A    Assignment2/productBacklog
+A    Assignment2/crcCards/Pwd.txt
+A    Assignment2/crcCards/Tree.txt
+A    Assignment2/crcCards/readMeForCrcCards.txt
+A    Assignment2/dailyScrumMeetings/langyu1Petersprint1June20.txt
+A    Assignment2/dailyScrumMeetings/makgabri1June19.txt
+A    Assignment2/dailyScrumMeetings/readMeDailyScrumMeetings.txt
+A    Assignment2/dailyScrumMeetings/taojia5Sprint3June26.txt
+A    Assignment2/dailyScrumMeetings/yangzon7Sprint1June21.txt
+A    Assignment2/productBacklog/productBacklogFor2A.txt
+A    Assignment2/sprints
+A    Assignment2/src
+A    Assignment2/src/driver
+A    Assignment2/sprints/readMeSprints.txt
+A    Assignment2/sprints/Sprint2Backlog.txt
+A    Assignment2/crcCards/Cat.txt
+A    Assignment2/crcCards/Cd.txt
+A    Assignment2/crcCards/CommandMap.txt
+A    Assignment2/crcCards/Console.txt
+A    Assignment2/crcCards/Directory.txt
+A    Assignment2/crcCards/Echo.txt
+A    Assignment2/src/environment
+A    Assignment2/src/exceptions
+A    Assignment2/src/executables
+A    Assignment2/src/driver/JShell.java
+A    Assignment2/src/exceptions/InvalidArgumentException.java
+A    Assignment2/src/environment/Environment.java
+A    Assignment2/src/exceptions/ShellException.java
+A    Assignment2/crcCards/EmptyDirectoryStackException.txt
+A    Assignment2/crcCards/Environment.txt
+A    Assignment2/crcCards/Executable.txt
+A    Assignment2/crcCards/Executor.txt
+A    Assignment2/crcCards/Exit.txt
+A    Assignment2/crcCards/File.txt
+A    Assignment2/src/executables/Executable.java
+A    Assignment2/src/executables/Ls.java
+A    Assignment2/src/executables/Cd.java
+A    Assignment2/src/executables/Find.java
+A    Assignment2/src/executables/Pushd.java
+A    Assignment2/src/executables/Mkdir.java
+A    Assignment2/src/executables/Tree.java
+A    Assignment2/src/filesystem
+A    Assignment2/src/input
+A    Assignment2/crcCards/FileSystem.txt
+A    Assignment2/crcCards/Find.txt
+A    Assignment2/crcCards/General.txt
+A    Assignment2/crcCards/History.txt
+A    Assignment2/crcCards/InvalidArgumentException.txt
+A    Assignment2/crcCards/InvalidCommandException.txt
+A    Assignment2/src/output
+A    Assignment2/src/test
+A    Assignment2/src/filesystem/File.java
+A    Assignment2/src/filesystem/General.java
+A    Assignment2/src/input/Argument.java
+A    Assignment2/src/output/Console.java
+A    Assignment2/dailyScrumMeetings/makgabri1June22.txt
+A    Assignment2/dailyScrumMeetings/taojia5Sprint1June19.txt
+A    Assignment2/dailyScrumMeetings/taojia5Sprint4June29.txt
+A    Assignment2/dailyScrumMeetings/yangzon7Sprint2June26.txt
+A    Assignment2/productBacklog/readMeProductBacklog.txt
+A    Assignment2/src/test/DirectoryTest.java
+A    Assignment2/src/test/FileSystemTest.java
+A    Assignment2/src/test/CdTest.java
+A    Assignment2/src/test/EnvironmentTest.java
+A    Assignment2/crcCards/JShell.txt
+A    Assignment2/crcCards/Ls.txt
+A    Assignment2/crcCards/Man.txt
+A    Assignment2/crcCards/Mkdir.txt
+A    Assignment2/crcCards/Path.txt
+A    Assignment2/crcCards/Popd.txt
+A    Assignment2/sprints/Sprint3Backlog.txt
+A    Assignment2/src/environment/CommandMap.java
+A    Assignment2/src/exceptions/InvalidCommandException.java
+A    Assignment2/src/executables/Echo.java
+A    Assignment2/src/executables/History.java
+A    Assignment2/src/executables/Popd.java
+A    Assignment2/crcCards/Pushd.txt
+A    Assignment2/crcCards/ShellException.txt
+A    Assignment2/crcCards/UserInput.txt
+A    Assignment2/dailyScrumMeetings/langyu1Petersprint1June17.txt
+A    Assignment2/dailyScrumMeetings/langyu1Petersprint2June26.txt
+A    Assignment2/dailyScrumMeetings/makgabri2June26.txt
+A    Assignment2/src/test/HistoryTest.java
+A    Assignment2/src/test/PathTest.java
+A    Assignment2/src/test/TreeTest.java
+A    Assignment2/src/test/FindTest.java
+A    Assignment2/src/test/ManTest.java
+A    Assignment2/src/test/PushdTest.java
+A    Assignment2/readMeAssignment2A.txt
+A    Assignment2/src/filesystem/Directory.java
+A    Assignment2/src/filesystem/Path.java
+A    Assignment2/src/test/CatTest.java
+A    Assignment2/dailyScrumMeetings/taojia5Sprint2June22.txt
+A    Assignment2/dailyScrumMeetings/yangzon7Sprint1June19.txt
+A    Assignment2/dailyScrumMeetings/yangzon7Sprint2June29.txt
+A    Assignment2/sprints/Sprint1Backlog.txt
+A    Assignment2/src/test/EchoTest.java
+A    Assignment2/src/test/FileTest.java
+A    Assignment2/src/test/LsTest.java
+A    Assignment2/src/test/PopdTest.java
+A    Assignment2/src/test/UserInputTest.java
+A    Assignment2/src/driver/Executor.java
+A    Assignment2/src/exceptions/EmptyDirectoryStackException.java
+A    Assignment2/src/executables/Cat.java
+A    Assignment2/src/executables/Exit.java
+A    Assignment2/src/executables/Man.java
+A    Assignment2/src/executables/Pwd.java
+A    Assignment2/src/filesystem/FileSystem.java
+A    Assignment2/src/input/UserInput.java
+A    Assignment2/src/test/CommandMapTest.java
+A    Assignment2/src/test/ExitTest.java
+A    Assignment2/src/test/GeneralTest.java
+A    Assignment2/src/test/MkdirTest.java
+A    Assignment2/src/test/PwdTest.java
+Checked out revision 397.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+Marks Deductions here (-.5 max): 
+------------------------------------------------------------------------
+r397 | yangzon7@UTORONTO.CA | 2018-07-02 23:59:00 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented directory
+------------------------------------------------------------------------
+r396 | taojia5@UTORONTO.CA | 2018-07-02 23:57:19 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r395 | taojia5@UTORONTO.CA | 2018-07-02 23:56:13 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r394 | taojia5@UTORONTO.CA | 2018-07-02 23:55:40 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r393 | yangzon7@UTORONTO.CA | 2018-07-02 23:54:09 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented tree
+------------------------------------------------------------------------
+r392 | yangzon7@UTORONTO.CA | 2018-07-02 23:49:31 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented pwd
+------------------------------------------------------------------------
+r391 | yangzon7@UTORONTO.CA | 2018-07-02 23:48:11 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented pushd
+------------------------------------------------------------------------
+r390 | taojia5@UTORONTO.CA | 2018-07-02 23:47:06 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Update
+------------------------------------------------------------------------
+r389 | yangzon7@UTORONTO.CA | 2018-07-02 23:44:59 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented a line for the manual
+------------------------------------------------------------------------
+r388 | yangzon7@UTORONTO.CA | 2018-07-02 23:41:51 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented popd
+------------------------------------------------------------------------
+r387 | yangzon7@UTORONTO.CA | 2018-07-02 23:34:14 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented exceptions
+------------------------------------------------------------------------
+r386 | taojia5@UTORONTO.CA | 2018-07-02 23:33:46 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting
+------------------------------------------------------------------------
+r385 | yangzon7@UTORONTO.CA | 2018-07-02 23:32:02 -0400 (Mon, 02 Jul 2018) | 1 line
+
+commented commandmap
+------------------------------------------------------------------------
+r384 | taojia5@UTORONTO.CA | 2018-07-02 23:31:27 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Add trim
+------------------------------------------------------------------------
+r383 | taojia5@UTORONTO.CA | 2018-07-02 23:28:01 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Update crccards
+------------------------------------------------------------------------
+r382 | taojia5@UTORONTO.CA | 2018-07-02 23:23:17 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Import executor
+------------------------------------------------------------------------
+r381 | taojia5@UTORONTO.CA | 2018-07-02 23:23:05 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Move to driver
+------------------------------------------------------------------------
+r380 | taojia5@UTORONTO.CA | 2018-07-02 23:22:48 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix signature
+------------------------------------------------------------------------
+r379 | taojia5@UTORONTO.CA | 2018-07-02 23:22:27 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r378 | taojia5@UTORONTO.CA | 2018-07-02 23:17:46 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Update
+------------------------------------------------------------------------
+r377 | taojia5@UTORONTO.CA | 2018-07-02 23:01:53 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Revert r376
+------------------------------------------------------------------------
+r376 | taojia5@UTORONTO.CA | 2018-07-02 22:58:15 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Revert r373
+------------------------------------------------------------------------
+r375 | yangzon7@UTORONTO.CA | 2018-07-02 22:53:11 -0400 (Mon, 02 Jul 2018) | 1 line
+
+added honor code
+------------------------------------------------------------------------
+r374 | yangzon7@UTORONTO.CA | 2018-07-02 22:52:12 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested environment
+------------------------------------------------------------------------
+r373 | taojia5@UTORONTO.CA | 2018-07-02 22:42:07 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Split userinput
+------------------------------------------------------------------------
+r372 | makgabri@UTORONTO.CA | 2018-07-02 22:07:08 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added test cases for find
+------------------------------------------------------------------------
+r371 | yangzon7@UTORONTO.CA | 2018-07-02 22:05:56 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested commandmap
+------------------------------------------------------------------------
+r370 | taojia5@UTORONTO.CA | 2018-07-02 22:05:24 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Update crccards
+------------------------------------------------------------------------
+r369 | yangzon7@UTORONTO.CA | 2018-07-02 21:52:14 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested general
+------------------------------------------------------------------------
+r368 | makgabri@UTORONTO.CA | 2018-07-02 21:45:25 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Typing improvement
+------------------------------------------------------------------------
+r367 | taojia5@UTORONTO.CA | 2018-07-02 21:44:06 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Make lines 80 chars
+------------------------------------------------------------------------
+r366 | makgabri@UTORONTO.CA | 2018-07-02 21:38:39 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fixed Cat issues
+------------------------------------------------------------------------
+r365 | yangzon7@UTORONTO.CA | 2018-07-02 21:35:34 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested file system
+------------------------------------------------------------------------
+r364 | makgabri@UTORONTO.CA | 2018-07-02 21:31:54 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added test cases for Pwd
+------------------------------------------------------------------------
+r363 | taojia5@UTORONTO.CA | 2018-07-02 21:21:56 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Man page
+------------------------------------------------------------------------
+r362 | makgabri@UTORONTO.CA | 2018-07-02 21:15:15 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added CAT test cases
+------------------------------------------------------------------------
+r361 | yangzon7@UTORONTO.CA | 2018-07-02 20:54:53 -0400 (Mon, 02 Jul 2018) | 1 line
+
+updated filetest
+------------------------------------------------------------------------
+r360 | yangzon7@UTORONTO.CA | 2018-07-02 20:51:25 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested file
+------------------------------------------------------------------------
+r359 | yangzon7@UTORONTO.CA | 2018-07-02 20:40:22 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested popd
+------------------------------------------------------------------------
+r358 | yangzon7@UTORONTO.CA | 2018-07-02 19:48:39 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested pushd
+------------------------------------------------------------------------
+r357 | taojia5@UTORONTO.CA | 2018-07-02 19:14:08 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting + javadoc
+------------------------------------------------------------------------
+r356 | yangzon7@UTORONTO.CA | 2018-07-02 19:09:19 -0400 (Mon, 02 Jul 2018) | 1 line
+
+tested cd
+------------------------------------------------------------------------
+r355 | taojia5@UTORONTO.CA | 2018-07-02 18:54:13 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r354 | taojia5@UTORONTO.CA | 2018-07-02 18:42:38 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting
+------------------------------------------------------------------------
+r353 | taojia5@UTORONTO.CA | 2018-07-02 18:39:36 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting
+------------------------------------------------------------------------
+r352 | taojia5@UTORONTO.CA | 2018-07-02 18:38:23 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Formatting
+------------------------------------------------------------------------
+r351 | langyu1@UTORONTO.CA | 2018-07-02 18:10:28 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added honor code for all java files.
+------------------------------------------------------------------------
+r350 | taojia5@UTORONTO.CA | 2018-07-02 18:06:29 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Remove
+------------------------------------------------------------------------
+r349 | makgabri@UTORONTO.CA | 2018-07-02 18:03:57 -0400 (Mon, 02 Jul 2018) | 1 line
+
+LS issues fixed
+------------------------------------------------------------------------
+r348 | yangzon7@UTORONTO.CA | 2018-07-02 17:57:01 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added my honor code
+------------------------------------------------------------------------
+r347 | makgabri@UTORONTO.CA | 2018-07-02 17:55:58 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fixing issues for ls test
+------------------------------------------------------------------------
+r346 | langyu1@UTORONTO.CA | 2018-07-02 17:51:24 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added honor code
+------------------------------------------------------------------------
+r345 | makgabri@UTORONTO.CA | 2018-07-02 17:42:11 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Typo errors fixed
+------------------------------------------------------------------------
+r344 | makgabri@UTORONTO.CA | 2018-07-02 17:36:02 -0400 (Mon, 02 Jul 2018) | 1 line
+
+My honor code
+------------------------------------------------------------------------
+r343 | makgabri@UTORONTO.CA | 2018-07-02 17:31:49 -0400 (Mon, 02 Jul 2018) | 1 line
+
+"More ls tests"
+------------------------------------------------------------------------
+r342 | taojia5@UTORONTO.CA | 2018-07-02 17:30:54 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Honor code
+------------------------------------------------------------------------
+r341 | makgabri@UTORONTO.CA | 2018-07-02 17:23:25 -0400 (Mon, 02 Jul 2018) | 1 line
+
+"Added test cases fir Ls"
+------------------------------------------------------------------------
+r340 | taojia5@UTORONTO.CA | 2018-07-02 17:21:56 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r339 | langyu1@UTORONTO.CA | 2018-07-02 13:42:10 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added test for man and mkdir
+------------------------------------------------------------------------
+r338 | langyu1@UTORONTO.CA | 2018-07-02 13:25:07 -0400 (Mon, 02 Jul 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r337 | langyu1@UTORONTO.CA | 2018-07-02 13:06:57 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added failed test to history
+------------------------------------------------------------------------
+r336 | langyu1@UTORONTO.CA | 2018-07-02 13:03:21 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added history test
+------------------------------------------------------------------------
+r335 | taojia5@UTORONTO.CA | 2018-07-02 05:07:07 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Echo and cat newline behavior mimics real shell
+------------------------------------------------------------------------
+r334 | taojia5@UTORONTO.CA | 2018-07-02 02:15:21 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Update
+------------------------------------------------------------------------
+r333 | langyu1@UTORONTO.CA | 2018-07-02 02:11:55 -0400 (Mon, 02 Jul 2018) | 1 line
+
+Added exit test
+------------------------------------------------------------------------
+r332 | taojia5@UTORONTO.CA | 2018-07-02 01:54:28 -0400 (Mon, 02 Jul 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r331 | taojia5@UTORONTO.CA | 2018-07-01 21:41:26 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Formatting + unclose scanner
+------------------------------------------------------------------------
+r330 | taojia5@UTORONTO.CA | 2018-07-01 21:38:46 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r329 | taojia5@UTORONTO.CA | 2018-07-01 21:37:39 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Add examples to man
+------------------------------------------------------------------------
+r328 | langyu1@UTORONTO.CA | 2018-07-01 02:50:21 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated comments for JShell
+------------------------------------------------------------------------
+r327 | langyu1@UTORONTO.CA | 2018-07-01 02:47:06 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated crc card of General
+------------------------------------------------------------------------
+r326 | langyu1@UTORONTO.CA | 2018-07-01 02:45:56 -0400 (Sun, 01 Jul 2018) | 1 line
+
+updated crc card for environment
+------------------------------------------------------------------------
+r325 | langyu1@UTORONTO.CA | 2018-07-01 02:43:06 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated comments of cd
+------------------------------------------------------------------------
+r324 | langyu1@UTORONTO.CA | 2018-07-01 02:41:41 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Fixed spelling mistake
+------------------------------------------------------------------------
+r323 | langyu1@UTORONTO.CA | 2018-07-01 02:41:06 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Added comments for cat
+------------------------------------------------------------------------
+r322 | langyu1@UTORONTO.CA | 2018-07-01 02:38:55 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated manual for pop
+------------------------------------------------------------------------
+r321 | langyu1@UTORONTO.CA | 2018-07-01 02:38:21 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated manual for push
+------------------------------------------------------------------------
+r320 | langyu1@UTORONTO.CA | 2018-07-01 02:37:21 -0400 (Sun, 01 Jul 2018) | 1 line
+
+Updated manual
+------------------------------------------------------------------------
+r319 | taojia5@UTORONTO.CA | 2018-06-30 22:55:28 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Fix line
+------------------------------------------------------------------------
+r318 | taojia5@UTORONTO.CA | 2018-06-30 22:35:41 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Test cases for Echo, Tree, Path
+------------------------------------------------------------------------
+r317 | taojia5@UTORONTO.CA | 2018-06-30 18:28:49 -0400 (Sat, 30 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r316 | taojia5@UTORONTO.CA | 2018-06-30 18:27:25 -0400 (Sat, 30 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r315 | taojia5@UTORONTO.CA | 2018-06-30 18:25:44 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Man page formatting
+------------------------------------------------------------------------
+r314 | taojia5@UTORONTO.CA | 2018-06-30 09:14:35 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Add skeleton test files for commands
+------------------------------------------------------------------------
+r313 | taojia5@UTORONTO.CA | 2018-06-30 09:01:03 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Add test cases for echo
+------------------------------------------------------------------------
+r312 | makgabri@UTORONTO.CA | 2018-06-30 07:19:32 -0400 (Sat, 30 Jun 2018) | 1 line
+
+Did some commenting for a few executables
+------------------------------------------------------------------------
+r311 | makgabri@UTORONTO.CA | 2018-06-30 07:09:15 -0400 (Sat, 30 Jun 2018) | 1 line
+
+added commenting for Cd
+------------------------------------------------------------------------
+r310 | makgabri@UTORONTO.CA | 2018-06-30 06:53:29 -0400 (Sat, 30 Jun 2018) | 1 line
+
+added comments for Cat
+------------------------------------------------------------------------
+r309 | taojia5@UTORONTO.CA | 2018-06-29 22:37:31 -0400 (Fri, 29 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r308 | taojia5@UTORONTO.CA | 2018-06-29 22:33:53 -0400 (Fri, 29 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r307 | yangzon7@UTORONTO.CA | 2018-06-29 22:18:00 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Added my scrum meeting
+------------------------------------------------------------------------
+r306 | yangzon7@UTORONTO.CA | 2018-06-29 22:08:18 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added description for tree.java
+------------------------------------------------------------------------
+r305 | yangzon7@UTORONTO.CA | 2018-06-29 22:06:53 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fixed spacing for echo, man, popd, pushd
+------------------------------------------------------------------------
+r304 | yangzon7@UTORONTO.CA | 2018-06-29 22:06:27 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added description for pwd.java
+------------------------------------------------------------------------
+r303 | yangzon7@UTORONTO.CA | 2018-06-29 22:04:21 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added description for pushd.jav
+------------------------------------------------------------------------
+r302 | yangzon7@UTORONTO.CA | 2018-06-29 22:01:48 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added description for popd.java
+------------------------------------------------------------------------
+r301 | yangzon7@UTORONTO.CA | 2018-06-29 22:00:00 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added description for mkdir.java
+------------------------------------------------------------------------
+r300 | yangzon7@UTORONTO.CA | 2018-06-29 21:58:29 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added manual for man.java
+------------------------------------------------------------------------
+r299 | yangzon7@UTORONTO.CA | 2018-06-29 21:57:01 -0400 (Fri, 29 Jun 2018) | 1 line
+
+added manual for find
+------------------------------------------------------------------------
+r298 | yangzon7@UTORONTO.CA | 2018-06-29 21:50:30 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fixed formatting for cat.java
+------------------------------------------------------------------------
+r297 | yangzon7@UTORONTO.CA | 2018-06-29 21:48:54 -0400 (Fri, 29 Jun 2018) | 1 line
+
+fixed formatting for cd.java
+------------------------------------------------------------------------
+r296 | taojia5@UTORONTO.CA | 2018-06-29 21:22:41 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Add daily scrum meeting
+------------------------------------------------------------------------
+r295 | taojia5@UTORONTO.CA | 2018-06-29 20:15:00 -0400 (Fri, 29 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r294 | taojia5@UTORONTO.CA | 2018-06-29 20:08:12 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Fix regex
+------------------------------------------------------------------------
+r293 | taojia5@UTORONTO.CA | 2018-06-29 20:07:42 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Fix regex
+------------------------------------------------------------------------
+r292 | taojia5@UTORONTO.CA | 2018-06-29 00:36:19 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Add collaborators
+------------------------------------------------------------------------
+r291 | taojia5@UTORONTO.CA | 2018-06-29 00:24:35 -0400 (Fri, 29 Jun 2018) | 1 line
+
+Fix some cards
+------------------------------------------------------------------------
+r290 | taojia5@UTORONTO.CA | 2018-06-28 23:55:32 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix user story
+------------------------------------------------------------------------
+r289 | yangzon7@UTORONTO.CA | 2018-06-28 23:50:34 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Added my parts for sprint 3
+------------------------------------------------------------------------
+r288 | langyu1@UTORONTO.CA | 2018-06-28 23:44:59 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated backlog
+------------------------------------------------------------------------
+r287 | langyu1@UTORONTO.CA | 2018-06-28 23:38:02 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Added tasks for self.
+------------------------------------------------------------------------
+r286 | taojia5@UTORONTO.CA | 2018-06-28 23:23:56 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r285 | taojia5@UTORONTO.CA | 2018-06-28 23:18:12 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r284 | taojia5@UTORONTO.CA | 2018-06-28 23:14:21 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Line length over 80
+------------------------------------------------------------------------
+r283 | taojia5@UTORONTO.CA | 2018-06-28 23:10:20 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r282 | taojia5@UTORONTO.CA | 2018-06-28 23:07:35 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r281 | taojia5@UTORONTO.CA | 2018-06-28 23:01:23 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r280 | taojia5@UTORONTO.CA | 2018-06-28 22:19:55 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r279 | taojia5@UTORONTO.CA | 2018-06-28 22:16:16 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix newline
+------------------------------------------------------------------------
+r278 | taojia5@UTORONTO.CA | 2018-06-28 22:11:37 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Echo adds a newline to the string before writing it to file
+------------------------------------------------------------------------
+r277 | taojia5@UTORONTO.CA | 2018-06-28 20:17:40 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r276 | taojia5@UTORONTO.CA | 2018-06-28 20:05:05 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Revert getChildrenByNameRec() to r188 + fix
+------------------------------------------------------------------------
+r275 | taojia5@UTORONTO.CA | 2018-06-28 19:36:05 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Test UserInput + add test files
+------------------------------------------------------------------------
+r274 | yangzon7@UTORONTO.CA | 2018-06-28 19:05:30 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated echo manual
+------------------------------------------------------------------------
+r273 | yangzon7@UTORONTO.CA | 2018-06-28 18:58:12 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated cat manual
+------------------------------------------------------------------------
+r272 | taojia5@UTORONTO.CA | 2018-06-28 18:19:12 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Comment
+------------------------------------------------------------------------
+r271 | taojia5@UTORONTO.CA | 2018-06-28 18:18:07 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Rename variable
+------------------------------------------------------------------------
+r270 | taojia5@UTORONTO.CA | 2018-06-28 17:10:05 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove unneeded variable
+------------------------------------------------------------------------
+r269 | taojia5@UTORONTO.CA | 2018-06-28 17:01:34 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Change methods to package-private
+------------------------------------------------------------------------
+r268 | taojia5@UTORONTO.CA | 2018-06-28 16:58:47 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Change method to protected
+------------------------------------------------------------------------
+r267 | taojia5@UTORONTO.CA | 2018-06-28 16:56:31 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove redundant methods
+------------------------------------------------------------------------
+r266 | taojia5@UTORONTO.CA | 2018-06-28 16:45:50 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix comment
+------------------------------------------------------------------------
+r265 | taojia5@UTORONTO.CA | 2018-06-28 16:43:29 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove unneeded variable
+------------------------------------------------------------------------
+r264 | taojia5@UTORONTO.CA | 2018-06-28 16:40:20 -0400 (Thu, 28 Jun 2018) | 1 line
+
+getPath() returns Path instead of String
+------------------------------------------------------------------------
+r263 | langyu1@UTORONTO.CA | 2018-06-28 16:21:25 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Changed man of mkdir slightly
+------------------------------------------------------------------------
+r262 | langyu1@UTORONTO.CA | 2018-06-28 16:00:32 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated crc cards for ls and man
+------------------------------------------------------------------------
+r261 | langyu1@UTORONTO.CA | 2018-06-28 15:54:54 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated crc card of mkdir.
+------------------------------------------------------------------------
+r260 | langyu1@UTORONTO.CA | 2018-06-28 15:48:00 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated executables crc card
+------------------------------------------------------------------------
+r259 | langyu1@UTORONTO.CA | 2018-06-28 15:47:46 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated pwd crc card
+------------------------------------------------------------------------
+r258 | langyu1@UTORONTO.CA | 2018-06-28 15:47:32 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated to the best of my abilities, code is hard to understand because no commenting.
+------------------------------------------------------------------------
+r257 | langyu1@UTORONTO.CA | 2018-06-28 15:38:10 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated crc card for Tree
+------------------------------------------------------------------------
+r256 | taojia5@UTORONTO.CA | 2018-06-28 15:09:05 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Move newline
+------------------------------------------------------------------------
+r255 | taojia5@UTORONTO.CA | 2018-06-28 14:59:14 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add comment
+------------------------------------------------------------------------
+r254 | taojia5@UTORONTO.CA | 2018-06-28 14:43:23 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add javadoc
+------------------------------------------------------------------------
+r253 | langyu1@UTORONTO.CA | 2018-06-28 14:29:25 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated manuals for up to ls
+------------------------------------------------------------------------
+r252 | taojia5@UTORONTO.CA | 2018-06-28 14:21:46 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add javadoc
+------------------------------------------------------------------------
+r251 | taojia5@UTORONTO.CA | 2018-06-28 14:17:49 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r250 | taojia5@UTORONTO.CA | 2018-06-28 14:16:09 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Don't allow creating a file with a parent
+------------------------------------------------------------------------
+r249 | langyu1@UTORONTO.CA | 2018-06-28 14:12:32 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Completed more crc cards
+------------------------------------------------------------------------
+r248 | taojia5@UTORONTO.CA | 2018-06-28 14:07:30 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r247 | langyu1@UTORONTO.CA | 2018-06-28 13:49:34 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Updated some crc cards
+------------------------------------------------------------------------
+r246 | taojia5@UTORONTO.CA | 2018-06-28 13:48:18 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix regex
+------------------------------------------------------------------------
+r245 | taojia5@UTORONTO.CA | 2018-06-28 13:44:29 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Start sprint log
+------------------------------------------------------------------------
+r244 | taojia5@UTORONTO.CA | 2018-06-28 13:41:57 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Check that file name contains only alphanumeric characters before creating it
+------------------------------------------------------------------------
+r243 | taojia5@UTORONTO.CA | 2018-06-28 05:05:40 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Delete
+------------------------------------------------------------------------
+r242 | taojia5@UTORONTO.CA | 2018-06-28 05:03:50 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add card
+------------------------------------------------------------------------
+r241 | taojia5@UTORONTO.CA | 2018-06-28 04:48:29 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r240 | taojia5@UTORONTO.CA | 2018-06-28 04:43:17 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add method to print string with a newline to the console
+------------------------------------------------------------------------
+r239 | taojia5@UTORONTO.CA | 2018-06-28 04:20:31 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix comment
+------------------------------------------------------------------------
+r238 | taojia5@UTORONTO.CA | 2018-06-28 04:17:59 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove io
+------------------------------------------------------------------------
+r237 | taojia5@UTORONTO.CA | 2018-06-28 04:17:11 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Split io into input and output
+------------------------------------------------------------------------
+r236 | taojia5@UTORONTO.CA | 2018-06-28 03:57:17 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix regex
+------------------------------------------------------------------------
+r235 | taojia5@UTORONTO.CA | 2018-06-28 03:48:26 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add newline
+------------------------------------------------------------------------
+r234 | taojia5@UTORONTO.CA | 2018-06-28 03:40:40 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add comments
+------------------------------------------------------------------------
+r233 | taojia5@UTORONTO.CA | 2018-06-28 03:34:09 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Implement echo
+------------------------------------------------------------------------
+r232 | taojia5@UTORONTO.CA | 2018-06-28 02:14:14 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove parameter from exception
+------------------------------------------------------------------------
+r231 | taojia5@UTORONTO.CA | 2018-06-28 02:08:50 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Fix comments
+------------------------------------------------------------------------
+r230 | taojia5@UTORONTO.CA | 2018-06-28 02:02:17 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add comments
+------------------------------------------------------------------------
+r229 | taojia5@UTORONTO.CA | 2018-06-28 01:34:27 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add comments
+------------------------------------------------------------------------
+r228 | taojia5@UTORONTO.CA | 2018-06-28 01:25:13 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Revert r227
+------------------------------------------------------------------------
+r227 | taojia5@UTORONTO.CA | 2018-06-28 01:20:42 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Add javadoc
+------------------------------------------------------------------------
+r226 | taojia5@UTORONTO.CA | 2018-06-28 00:10:22 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Update crccards
+------------------------------------------------------------------------
+r225 | taojia5@UTORONTO.CA | 2018-06-28 00:03:22 -0400 (Thu, 28 Jun 2018) | 1 line
+
+Remove unneeded classes
+------------------------------------------------------------------------
+r224 | langyu1@UTORONTO.CA | 2018-06-27 22:04:28 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Added close for scanner
+------------------------------------------------------------------------
+r223 | taojia5@UTORONTO.CA | 2018-06-27 14:37:10 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r222 | taojia5@UTORONTO.CA | 2018-06-27 14:33:10 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Add javadoc
+------------------------------------------------------------------------
+r221 | taojia5@UTORONTO.CA | 2018-06-27 14:22:52 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Revert r220
+------------------------------------------------------------------------
+r220 | taojia5@UTORONTO.CA | 2018-06-27 14:21:08 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r219 | makgabri@UTORONTO.CA | 2018-06-27 00:02:05 -0400 (Wed, 27 Jun 2018) | 1 line
+
+adding my scrum report
+------------------------------------------------------------------------
+r218 | yangzon7@UTORONTO.CA | 2018-06-27 00:00:30 -0400 (Wed, 27 Jun 2018) | 1 line
+
+Added my scrum meeting
+------------------------------------------------------------------------
+r217 | yangzon7@UTORONTO.CA | 2018-06-26 23:57:40 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Commented on Ls class
+------------------------------------------------------------------------
+r216 | langyu1@UTORONTO.CA | 2018-06-26 23:41:12 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Renamed file from 25th to 26th
+------------------------------------------------------------------------
+r215 | taojia5@UTORONTO.CA | 2018-06-26 21:58:39 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Add daily scrum meeting
+------------------------------------------------------------------------
+r214 | taojia5@UTORONTO.CA | 2018-06-26 19:16:18 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Optimize
+------------------------------------------------------------------------
+r213 | taojia5@UTORONTO.CA | 2018-06-26 14:39:18 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Optimize recursion
+------------------------------------------------------------------------
+r212 | taojia5@UTORONTO.CA | 2018-06-26 14:21:22 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Add newline to output
+------------------------------------------------------------------------
+r211 | taojia5@UTORONTO.CA | 2018-06-26 12:30:34 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Optimize imports
+------------------------------------------------------------------------
+r210 | taojia5@UTORONTO.CA | 2018-06-26 12:28:01 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Add check for no name
+------------------------------------------------------------------------
+r209 | taojia5@UTORONTO.CA | 2018-06-26 00:47:43 -0400 (Tue, 26 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r208 | taojia5@UTORONTO.CA | 2018-06-26 00:39:08 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Remove unneeded variables
+------------------------------------------------------------------------
+r207 | taojia5@UTORONTO.CA | 2018-06-26 00:37:22 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r206 | taojia5@UTORONTO.CA | 2018-06-26 00:26:00 -0400 (Tue, 26 Jun 2018) | 1 line
+
+Move path parsing to own class
+------------------------------------------------------------------------
+r205 | taojia5@UTORONTO.CA | 2018-06-25 23:57:51 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r204 | langyu1@UTORONTO.CA | 2018-06-25 22:49:49 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Added responsibilities for tree
+------------------------------------------------------------------------
+r203 | langyu1@UTORONTO.CA | 2018-06-25 22:43:22 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Added responsibilities for find
+------------------------------------------------------------------------
+r202 | taojia5@UTORONTO.CA | 2018-06-25 22:40:01 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Send error to correct output
+------------------------------------------------------------------------
+r201 | taojia5@UTORONTO.CA | 2018-06-25 22:39:20 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Start find
+------------------------------------------------------------------------
+r200 | langyu1@UTORONTO.CA | 2018-06-25 22:34:43 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Added new scrum meeting
+------------------------------------------------------------------------
+r199 | taojia5@UTORONTO.CA | 2018-06-25 19:06:23 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r198 | taojia5@UTORONTO.CA | 2018-06-25 19:02:51 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r197 | taojia5@UTORONTO.CA | 2018-06-25 17:45:20 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Add the find command
+------------------------------------------------------------------------
+r196 | langyu1@UTORONTO.CA | 2018-06-25 17:32:41 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Forgot to svn add tree and find
+------------------------------------------------------------------------
+r195 | taojia5@UTORONTO.CA | 2018-06-25 17:27:28 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Change to recursive method
+------------------------------------------------------------------------
+r194 | taojia5@UTORONTO.CA | 2018-06-25 16:58:51 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Fix order
+------------------------------------------------------------------------
+r193 | langyu1@UTORONTO.CA | 2018-06-25 12:42:04 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Changed some crc cards and added find and tree.
+------------------------------------------------------------------------
+r192 | taojia5@UTORONTO.CA | 2018-06-25 11:55:38 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Use parent's constructor
+------------------------------------------------------------------------
+r191 | taojia5@UTORONTO.CA | 2018-06-25 11:44:37 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Style
+------------------------------------------------------------------------
+r190 | taojia5@UTORONTO.CA | 2018-06-25 11:43:11 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Fix order
+------------------------------------------------------------------------
+r189 | taojia5@UTORONTO.CA | 2018-06-25 03:19:30 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Change to linked list
+------------------------------------------------------------------------
+r188 | taojia5@UTORONTO.CA | 2018-06-25 03:13:45 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Add method to recursively search for files by name
+------------------------------------------------------------------------
+r187 | makgabri@UTORONTO.CA | 2018-06-25 02:13:07 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Found out parser is redundant
+------------------------------------------------------------------------
+r186 | makgabri@UTORONTO.CA | 2018-06-25 01:58:30 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Changed inappropriate variable name in FileSystem, Added Parser method to parse input into a list
+------------------------------------------------------------------------
+r185 | makgabri@UTORONTO.CA | 2018-06-25 01:26:48 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Imported ArrayList
+------------------------------------------------------------------------
+r184 | makgabri@UTORONTO.CA | 2018-06-25 01:24:43 -0400 (Mon, 25 Jun 2018) | 1 line
+
+Changed getChildByPath to use a helper function parsePath
+------------------------------------------------------------------------
+r183 | makgabri@UTORONTO.CA | 2018-06-24 22:15:37 -0400 (Sun, 24 Jun 2018) | 1 line
+
+Adding skeleton java for Find
+------------------------------------------------------------------------
+r182 | makgabri@UTORONTO.CA | 2018-06-24 22:14:37 -0400 (Sun, 24 Jun 2018) | 1 line
+
+fixing the name
+------------------------------------------------------------------------
+r181 | makgabri@UTORONTO.CA | 2018-06-24 22:12:48 -0400 (Sun, 24 Jun 2018) | 1 line
+
+Adding skeleton for path.java
+------------------------------------------------------------------------
+r180 | makgabri@UTORONTO.CA | 2018-06-24 22:05:33 -0400 (Sun, 24 Jun 2018) | 1 line
+
+added another statement for product backlog
+------------------------------------------------------------------------
+r179 | makgabri@UTORONTO.CA | 2018-06-24 21:49:31 -0400 (Sun, 24 Jun 2018) | 1 line
+
+Adding my report from 2 days ago
+------------------------------------------------------------------------
+r178 | taojia5@UTORONTO.CA | 2018-06-22 22:49:02 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Move variable
+------------------------------------------------------------------------
+r177 | taojia5@UTORONTO.CA | 2018-06-22 21:40:15 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add daily scrum meeting
+------------------------------------------------------------------------
+r176 | taojia5@UTORONTO.CA | 2018-06-22 21:23:14 -0400 (Fri, 22 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r175 | taojia5@UTORONTO.CA | 2018-06-22 21:21:32 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add tree
+------------------------------------------------------------------------
+r174 | taojia5@UTORONTO.CA | 2018-06-22 21:15:56 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r173 | taojia5@UTORONTO.CA | 2018-06-22 18:58:25 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r172 | taojia5@UTORONTO.CA | 2018-06-22 18:33:56 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add stories
+------------------------------------------------------------------------
+r171 | taojia5@UTORONTO.CA | 2018-06-22 17:59:54 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add stories
+------------------------------------------------------------------------
+r170 | yangzon7@UTORONTO.CA | 2018-06-22 00:36:54 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Renamed typo
+------------------------------------------------------------------------
+r169 | yangzon7@UTORONTO.CA | 2018-06-22 00:36:26 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Updated Userinput.txt
+------------------------------------------------------------------------
+r168 | yangzon7@UTORONTO.CA | 2018-06-22 00:32:43 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Removed wrong crc names
+------------------------------------------------------------------------
+r167 | yangzon7@UTORONTO.CA | 2018-06-22 00:32:12 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fixed Invalid argument, command, and jshell
+------------------------------------------------------------------------
+r166 | taojia5@UTORONTO.CA | 2018-06-22 00:31:39 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Changed to Stack<Directory>
+------------------------------------------------------------------------
+r165 | taojia5@UTORONTO.CA | 2018-06-22 00:29:54 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r164 | taojia5@UTORONTO.CA | 2018-06-22 00:27:21 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Add responsiblity
+------------------------------------------------------------------------
+r163 | taojia5@UTORONTO.CA | 2018-06-22 00:25:26 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r162 | taojia5@UTORONTO.CA | 2018-06-22 00:23:37 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r161 | taojia5@UTORONTO.CA | 2018-06-22 00:21:23 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fix cards
+------------------------------------------------------------------------
+r160 | yangzon7@UTORONTO.CA | 2018-06-22 00:17:47 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Updated FileSystem crc
+------------------------------------------------------------------------
+r159 | yangzon7@UTORONTO.CA | 2018-06-22 00:12:58 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fixed typo and updated FileAlreadyExistsException crc
+------------------------------------------------------------------------
+r158 | taojia5@UTORONTO.CA | 2018-06-22 00:11:39 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Fix collab
+------------------------------------------------------------------------
+r157 | yangzon7@UTORONTO.CA | 2018-06-22 00:06:53 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Added Executor crc
+------------------------------------------------------------------------
+r156 | yangzon7@UTORONTO.CA | 2018-06-22 00:03:29 -0400 (Fri, 22 Jun 2018) | 1 line
+
+Updated Directory and Executable crc
+------------------------------------------------------------------------
+r155 | makgabri@UTORONTO.CA | 2018-06-22 00:00:47 -0400 (Fri, 22 Jun 2018) | 2 lines
+
+Fixed a .txt at class name for directory stack
+
+------------------------------------------------------------------------
+r154 | taojia5@UTORONTO.CA | 2018-06-21 23:58:57 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r153 | yangzon7@UTORONTO.CA | 2018-06-21 23:58:08 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Updated Cd crc
+------------------------------------------------------------------------
+r152 | yangzon7@UTORONTO.CA | 2018-06-21 23:54:11 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Updated cat crc
+------------------------------------------------------------------------
+r151 | yangzon7@UTORONTO.CA | 2018-06-21 23:45:48 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Updated report
+------------------------------------------------------------------------
+r150 | makgabri@UTORONTO.CA | 2018-06-21 23:42:24 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Added my tasks for sprint2
+------------------------------------------------------------------------
+r149 | yangzon7@UTORONTO.CA | 2018-06-21 23:42:18 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Added Root Directory crc card
+------------------------------------------------------------------------
+r148 | yangzon7@UTORONTO.CA | 2018-06-21 23:39:59 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Added my parts to the sprint backlog
+------------------------------------------------------------------------
+r147 | makgabri@UTORONTO.CA | 2018-06-21 23:30:41 -0400 (Thu, 21 Jun 2018) | 1 line
+
+CRCCards: worked on exceptions, directorystack and console
+------------------------------------------------------------------------
+r146 | yangzon7@UTORONTO.CA | 2018-06-21 23:06:55 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Added my report
+------------------------------------------------------------------------
+r145 | makgabri@UTORONTO.CA | 2018-06-21 23:05:02 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Worked on CRC Cards
+------------------------------------------------------------------------
+r144 | taojia5@UTORONTO.CA | 2018-06-21 22:40:48 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Fix tasks
+------------------------------------------------------------------------
+r143 | taojia5@UTORONTO.CA | 2018-06-21 22:37:26 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Typo
+------------------------------------------------------------------------
+r142 | taojia5@UTORONTO.CA | 2018-06-21 22:20:30 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r141 | taojia5@UTORONTO.CA | 2018-06-21 22:06:52 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add task
+------------------------------------------------------------------------
+r140 | langyu1@UTORONTO.CA | 2018-06-21 21:59:47 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Added sprint tasks and for myself
+------------------------------------------------------------------------
+r139 | makgabri@UTORONTO.CA | 2018-06-21 21:50:53 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Fixed incorrect dates for daily scrum Meetings
+------------------------------------------------------------------------
+r138 | makgabri@UTORONTO.CA | 2018-06-21 21:29:55 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Adding my report from yesturday, added a day late. Forgot to commit
+------------------------------------------------------------------------
+r137 | taojia5@UTORONTO.CA | 2018-06-21 13:31:48 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Remove old crccards
+------------------------------------------------------------------------
+r136 | taojia5@UTORONTO.CA | 2018-06-21 13:31:23 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add story
+------------------------------------------------------------------------
+r135 | taojia5@UTORONTO.CA | 2018-06-21 13:26:36 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add task
+------------------------------------------------------------------------
+r134 | taojia5@UTORONTO.CA | 2018-06-21 13:23:12 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add stories to sprint log
+------------------------------------------------------------------------
+r133 | taojia5@UTORONTO.CA | 2018-06-21 12:45:51 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add execute
+------------------------------------------------------------------------
+r132 | taojia5@UTORONTO.CA | 2018-06-21 12:38:40 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Fix error
+------------------------------------------------------------------------
+r131 | taojia5@UTORONTO.CA | 2018-06-21 12:37:17 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add error
+------------------------------------------------------------------------
+r130 | taojia5@UTORONTO.CA | 2018-06-21 12:35:49 -0400 (Thu, 21 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r129 | taojia5@UTORONTO.CA | 2018-06-21 12:18:44 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Readability
+------------------------------------------------------------------------
+r128 | taojia5@UTORONTO.CA | 2018-06-21 12:17:00 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Fix error catching
+------------------------------------------------------------------------
+r127 | taojia5@UTORONTO.CA | 2018-06-21 11:49:28 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Change toString
+------------------------------------------------------------------------
+r126 | taojia5@UTORONTO.CA | 2018-06-21 11:45:24 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Removed unneeded variable
+------------------------------------------------------------------------
+r125 | taojia5@UTORONTO.CA | 2018-06-21 11:42:24 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Remove unneeded variable
+------------------------------------------------------------------------
+r124 | taojia5@UTORONTO.CA | 2018-06-21 11:40:48 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Fix parser
+------------------------------------------------------------------------
+r123 | taojia5@UTORONTO.CA | 2018-06-21 11:34:40 -0400 (Thu, 21 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r122 | taojia5@UTORONTO.CA | 2018-06-21 11:29:03 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Remove unused imports
+------------------------------------------------------------------------
+r121 | taojia5@UTORONTO.CA | 2018-06-21 11:24:33 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Rename methods
+------------------------------------------------------------------------
+r120 | taojia5@UTORONTO.CA | 2018-06-21 11:22:26 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Move path parsing + rename methods
+------------------------------------------------------------------------
+r119 | taojia5@UTORONTO.CA | 2018-06-21 10:21:32 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add exception
+------------------------------------------------------------------------
+r118 | taojia5@UTORONTO.CA | 2018-06-21 09:48:24 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add comment
+------------------------------------------------------------------------
+r117 | taojia5@UTORONTO.CA | 2018-06-21 09:38:18 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Add comments
+------------------------------------------------------------------------
+r116 | taojia5@UTORONTO.CA | 2018-06-21 09:29:56 -0400 (Thu, 21 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r115 | taojia5@UTORONTO.CA | 2018-06-21 08:46:23 -0400 (Thu, 21 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r114 | taojia5@UTORONTO.CA | 2018-06-21 08:23:03 -0400 (Thu, 21 Jun 2018) | 1 line
+
+Change SortedSet to TreeSet
+------------------------------------------------------------------------
+r113 | langyu1@UTORONTO.CA | 2018-06-20 21:41:54 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Added daily meeting note
+------------------------------------------------------------------------
+r112 | taojia5@UTORONTO.CA | 2018-06-20 17:07:35 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add code
+------------------------------------------------------------------------
+r111 | taojia5@UTORONTO.CA | 2018-06-20 17:01:04 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add comment
+------------------------------------------------------------------------
+r110 | taojia5@UTORONTO.CA | 2018-06-20 17:00:19 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Fix uncaught invalid argument
+------------------------------------------------------------------------
+r109 | taojia5@UTORONTO.CA | 2018-06-20 16:41:21 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Fix bug
+------------------------------------------------------------------------
+r108 | taojia5@UTORONTO.CA | 2018-06-20 16:38:04 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add comments
+------------------------------------------------------------------------
+r107 | taojia5@UTORONTO.CA | 2018-06-20 16:20:40 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Remove public
+------------------------------------------------------------------------
+r106 | taojia5@UTORONTO.CA | 2018-06-20 16:16:52 -0400 (Wed, 20 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r105 | taojia5@UTORONTO.CA | 2018-06-20 16:15:19 -0400 (Wed, 20 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r104 | taojia5@UTORONTO.CA | 2018-06-20 16:11:27 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add code to get history
+------------------------------------------------------------------------
+r103 | taojia5@UTORONTO.CA | 2018-06-20 15:59:49 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Log input
+------------------------------------------------------------------------
+r102 | taojia5@UTORONTO.CA | 2018-06-20 15:25:28 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add the directory stack
+------------------------------------------------------------------------
+r101 | taojia5@UTORONTO.CA | 2018-06-20 14:11:22 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add stub method
+------------------------------------------------------------------------
+r100 | taojia5@UTORONTO.CA | 2018-06-20 14:06:34 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Removed
+------------------------------------------------------------------------
+r99 | taojia5@UTORONTO.CA | 2018-06-20 14:05:10 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Combined into io
+------------------------------------------------------------------------
+r98 | taojia5@UTORONTO.CA | 2018-06-20 14:00:42 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Move to filesystem
+------------------------------------------------------------------------
+r97 | taojia5@UTORONTO.CA | 2018-06-20 13:56:42 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Fix unable to compile
+------------------------------------------------------------------------
+r96 | taojia5@UTORONTO.CA | 2018-06-20 13:53:29 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Move file system to its own package
+------------------------------------------------------------------------
+r95 | taojia5@UTORONTO.CA | 2018-06-20 13:41:43 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Remove unused imports
+------------------------------------------------------------------------
+r94 | taojia5@UTORONTO.CA | 2018-06-20 13:32:33 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add testing code
+------------------------------------------------------------------------
+r93 | taojia5@UTORONTO.CA | 2018-06-20 13:11:23 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Get path in string + print working path in shell prompt
+------------------------------------------------------------------------
+r92 | taojia5@UTORONTO.CA | 2018-06-20 13:10:24 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Change to sorted set
+------------------------------------------------------------------------
+r91 | taojia5@UTORONTO.CA | 2018-06-20 13:09:25 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Change array to sorted set
+------------------------------------------------------------------------
+r90 | taojia5@UTORONTO.CA | 2018-06-20 13:08:37 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Add append method
+------------------------------------------------------------------------
+r89 | taojia5@UTORONTO.CA | 2018-06-20 12:38:01 -0400 (Wed, 20 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r88 | taojia5@UTORONTO.CA | 2018-06-19 23:54:01 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Add daily scrum meeting
+------------------------------------------------------------------------
+r87 | yangzon7@UTORONTO.CA | 2018-06-19 23:02:16 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Added my daily scrum meeting
+------------------------------------------------------------------------
+r86 | yangzon7@UTORONTO.CA | 2018-06-19 22:50:33 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Added the file system and its components
+------------------------------------------------------------------------
+r85 | taojia5@UTORONTO.CA | 2018-06-19 15:56:47 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Fix imports
+------------------------------------------------------------------------
+r84 | taojia5@UTORONTO.CA | 2018-06-19 15:13:01 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Remove unneeded variable
+------------------------------------------------------------------------
+r83 | taojia5@UTORONTO.CA | 2018-06-19 15:01:52 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Rename Command to Executable, move CommandMap from commands to input
+------------------------------------------------------------------------
+r82 | taojia5@UTORONTO.CA | 2018-06-19 14:50:58 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Execturor inherits Command
+------------------------------------------------------------------------
+r81 | taojia5@UTORONTO.CA | 2018-06-19 14:41:35 -0400 (Tue, 19 Jun 2018) | 1 line
+
+Remove CommandOutput class
+------------------------------------------------------------------------
+r80 | taojia5@UTORONTO.CA | 2018-06-18 23:57:52 -0400 (Mon, 18 Jun 2018) | 1 line
+
+Fix unable to compile
+------------------------------------------------------------------------
+r79 | makgabri@UTORONTO.CA | 2018-06-17 19:15:58 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Crc Cards added commands and renamed filesystem
+------------------------------------------------------------------------
+r78 | makgabri@UTORONTO.CA | 2018-06-17 19:12:20 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Added error message classes
+------------------------------------------------------------------------
+r77 | taojia5@UTORONTO.CA | 2018-06-17 18:56:35 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r76 | taojia5@UTORONTO.CA | 2018-06-17 18:38:53 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Change execution return type
+------------------------------------------------------------------------
+r75 | makgabri@UTORONTO.CA | 2018-06-17 17:36:27 -0400 (Sun, 17 Jun 2018) | 1 line
+
+June 17 my report
+------------------------------------------------------------------------
+r74 | langyu1@UTORONTO.CA | 2018-06-17 15:34:57 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Added exit execution
+------------------------------------------------------------------------
+r73 | langyu1@UTORONTO.CA | 2018-06-17 15:30:30 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Renaming file
+------------------------------------------------------------------------
+r72 | langyu1@UTORONTO.CA | 2018-06-17 15:30:11 -0400 (Sun, 17 Jun 2018) | 3 lines
+
+Renaming file
+
+
+------------------------------------------------------------------------
+r71 | taojia5@UTORONTO.CA | 2018-06-17 15:17:34 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Rollback
+------------------------------------------------------------------------
+r70 | taojia5@UTORONTO.CA | 2018-06-17 15:14:24 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Fix
+------------------------------------------------------------------------
+r69 | taojia5@UTORONTO.CA | 2018-06-17 15:04:36 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r68 | taojia5@UTORONTO.CA | 2018-06-17 15:01:33 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Remove CommandOutput
+------------------------------------------------------------------------
+r67 | langyu1@UTORONTO.CA | 2018-06-17 14:59:55 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Added daily sprint
+------------------------------------------------------------------------
+r66 | taojia5@UTORONTO.CA | 2018-06-17 12:56:55 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Start manuals
+------------------------------------------------------------------------
+r65 | taojia5@UTORONTO.CA | 2018-06-17 12:10:27 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Spelling
+------------------------------------------------------------------------
+r64 | taojia5@UTORONTO.CA | 2018-06-17 11:58:56 -0400 (Sun, 17 Jun 2018) | 1 line
+
+Create place to store working path + make prompt include working path
+------------------------------------------------------------------------
+r63 | makgabri@UTORONTO.CA | 2018-06-16 17:05:22 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Added Directory stack and edited several collaborators
+------------------------------------------------------------------------
+r62 | taojia5@UTORONTO.CA | 2018-06-16 13:58:06 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Fix parser
+------------------------------------------------------------------------
+r61 | taojia5@UTORONTO.CA | 2018-06-16 13:52:41 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Fix parser
+------------------------------------------------------------------------
+r60 | taojia5@UTORONTO.CA | 2018-06-16 13:24:28 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Change error classes
+------------------------------------------------------------------------
+r59 | taojia5@UTORONTO.CA | 2018-06-16 12:45:01 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Remove unused import
+------------------------------------------------------------------------
+r58 | taojia5@UTORONTO.CA | 2018-06-16 12:38:56 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Move try block
+------------------------------------------------------------------------
+r57 | taojia5@UTORONTO.CA | 2018-06-16 12:27:55 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Do not show error on inputting a blank line
+------------------------------------------------------------------------
+r56 | taojia5@UTORONTO.CA | 2018-06-16 12:13:26 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Change Console and Output newline behaviour
+------------------------------------------------------------------------
+r55 | taojia5@UTORONTO.CA | 2018-06-16 02:17:16 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Let commands throw custom exceptions
+------------------------------------------------------------------------
+r54 | taojia5@UTORONTO.CA | 2018-06-16 02:15:41 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Remove notes
+------------------------------------------------------------------------
+r53 | taojia5@UTORONTO.CA | 2018-06-16 02:14:23 -0400 (Sat, 16 Jun 2018) | 1 line
+
+c-1: Create custom exceptions to throw on error
+------------------------------------------------------------------------
+r52 | taojia5@UTORONTO.CA | 2018-06-16 02:04:09 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Remove unwanted imports
+------------------------------------------------------------------------
+r51 | taojia5@UTORONTO.CA | 2018-06-16 02:03:11 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Split into new file
+------------------------------------------------------------------------
+r50 | taojia5@UTORONTO.CA | 2018-06-16 01:35:04 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Start javadoc
+------------------------------------------------------------------------
+r49 | taojia5@UTORONTO.CA | 2018-06-16 01:17:15 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Fix spacing
+------------------------------------------------------------------------
+r48 | taojia5@UTORONTO.CA | 2018-06-16 01:13:06 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Add consstructor
+------------------------------------------------------------------------
+r47 | taojia5@UTORONTO.CA | 2018-06-16 01:12:52 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Allow the console to print a command output
+------------------------------------------------------------------------
+r46 | taojia5@UTORONTO.CA | 2018-06-16 00:35:52 -0400 (Sat, 16 Jun 2018) | 1 line
+
+add stub methods to make parsing work
+------------------------------------------------------------------------
+r45 | taojia5@UTORONTO.CA | 2018-06-16 00:33:59 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Make JShell use the output and console classes
+------------------------------------------------------------------------
+r44 | makgabri@UTORONTO.CA | 2018-06-16 00:32:05 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Created skeleton for CrcCards
+------------------------------------------------------------------------
+r43 | taojia5@UTORONTO.CA | 2018-06-16 00:24:16 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Work on b-2
+------------------------------------------------------------------------
+r42 | taojia5@UTORONTO.CA | 2018-06-16 00:22:09 -0400 (Sat, 16 Jun 2018) | 1 line
+
+Work on b-1
+------------------------------------------------------------------------
+r41 | taojia5@UTORONTO.CA | 2018-06-15 22:42:46 -0400 (Fri, 15 Jun 2018) | 1 line
+
+Fix javadoc
+------------------------------------------------------------------------
+r40 | taojia5@UTORONTO.CA | 2018-06-15 19:46:10 -0400 (Fri, 15 Jun 2018) | 1 line
+
+Fix typo
+------------------------------------------------------------------------
+r39 | taojia5@UTORONTO.CA | 2018-06-15 19:42:25 -0400 (Fri, 15 Jun 2018) | 1 line
+
+Complete a-3ii
+------------------------------------------------------------------------
+r38 | taojia5@UTORONTO.CA | 2018-06-15 19:41:24 -0400 (Fri, 15 Jun 2018) | 1 line
+
+Complete a-1, a-2
+------------------------------------------------------------------------
+r37 | yangzon7@UTORONTO.CA | 2018-06-14 23:58:12 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Added everyone's tasks
+------------------------------------------------------------------------
+r36 | langyu1@UTORONTO.CA | 2018-06-14 23:51:37 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Added tasks for self
+------------------------------------------------------------------------
+r35 | yangzon7@UTORONTO.CA | 2018-06-14 22:55:32 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Andy's tasks submitted
+------------------------------------------------------------------------
+r34 | yangzon7@UTORONTO.CA | 2018-06-14 22:37:37 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Finished Sprint1Backlog
+------------------------------------------------------------------------
+r33 | taojia5@UTORONTO.CA | 2018-06-14 19:36:16 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r32 | yangzon7@UTORONTO.CA | 2018-06-14 18:33:51 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Broke up stories into 3 sprints
+------------------------------------------------------------------------
+r31 | yangzon7@UTORONTO.CA | 2018-06-14 18:33:09 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Broke up stories into 3 sprints
+------------------------------------------------------------------------
+r30 | yangzon7@UTORONTO.CA | 2018-06-14 18:11:29 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Updated product backlog
+------------------------------------------------------------------------
+r29 | yangzon7@UTORONTO.CA | 2018-06-14 18:03:08 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Finished up product backlog
+------------------------------------------------------------------------
+r28 | taojia5@UTORONTO.CA | 2018-06-14 15:26:01 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Rename
+------------------------------------------------------------------------
+r27 | taojia5@UTORONTO.CA | 2018-06-14 15:08:59 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Add tasks for user story #3
+------------------------------------------------------------------------
+r26 | taojia5@UTORONTO.CA | 2018-06-14 14:51:02 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Reference user stories from product backlog
+------------------------------------------------------------------------
+r25 | taojia5@UTORONTO.CA | 2018-06-14 14:50:23 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Add time estimates
+------------------------------------------------------------------------
+r24 | taojia5@UTORONTO.CA | 2018-06-14 14:46:16 -0400 (Thu, 14 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r23 | taojia5@UTORONTO.CA | 2018-06-14 14:42:22 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Format
+------------------------------------------------------------------------
+r22 | makgabri@UTORONTO.CA | 2018-06-14 14:28:01 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Added so that statements onto the product backlog to give more purpose to each command
+------------------------------------------------------------------------
+r21 | taojia5@UTORONTO.CA | 2018-06-14 13:00:36 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Add tasks
+------------------------------------------------------------------------
+r20 | taojia5@UTORONTO.CA | 2018-06-14 12:37:44 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Add user stories
+------------------------------------------------------------------------
+r19 | langyu1@UTORONTO.CA | 2018-06-14 04:37:10 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Added second task
+------------------------------------------------------------------------
+r18 | langyu1@UTORONTO.CA | 2018-06-14 04:25:21 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Created sprint1 backlog and added task 1
+------------------------------------------------------------------------
+r17 | makgabri@UTORONTO.CA | 2018-06-14 00:23:28 -0400 (Thu, 14 Jun 2018) | 1 line
+
+Added pushd, popd, cat, echo and man user stories
+------------------------------------------------------------------------
+r16 | makgabri@UTORONTO.CA | 2018-06-13 23:43:24 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Adding jia and my crcCards
+------------------------------------------------------------------------
+r15 | langyu1@UTORONTO.CA | 2018-06-13 23:15:14 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Added more commands
+------------------------------------------------------------------------
+r14 | langyu1@UTORONTO.CA | 2018-06-13 23:13:29 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Changed formatting
+------------------------------------------------------------------------
+r13 | langyu1@UTORONTO.CA | 2018-06-13 22:42:52 -0400 (Wed, 13 Jun 2018) | 1 line
+
+appended some commands
+------------------------------------------------------------------------
+r12 | langyu1@UTORONTO.CA | 2018-06-13 22:34:24 -0400 (Wed, 13 Jun 2018) | 1 line
+
+added stories for certain commands
+------------------------------------------------------------------------
+r11 | langyu1@UTORONTO.CA | 2018-06-13 22:25:06 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Added product backlog txt
+------------------------------------------------------------------------
+r10 | yangzon7@UTORONTO.CA | 2018-06-13 21:45:38 -0400 (Wed, 13 Jun 2018) | 1 line
+
+Uploaded Peter and Andy's group's crc cards
+------------------------------------------------------------------------
+r7 | attarwal@UTORONTO.CA | 2018-06-12 15:55:04 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2018-06-12 15:55:03 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r5 | attarwal@UTORONTO.CA | 2018-06-12 15:55:03 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2018-06-12 15:55:02 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2018-06-12 15:55:01 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2018-06-12 15:55:00 -0400 (Tue, 12 Jun 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | Markus | 2018-06-12 15:33:41 -0400 (Tue, 12 Jun 2018) | 1 line
+
+
+------------------------------------------------------------------------
+
+
+
+Part 3) +++Work Distribution of Team Members+++
++++ON ALL SOURCE FILES+++
+  22 attarwal@U
+1465 langyu1@UT
+ 297 makgabri@U
+3015 taojia5@UT
+ 353 yangzon7@U
++++ON CRC CARDS+++
+   9 attarwal@U
+  64 langyu1@UT
+ 149 makgabri@U
+ 124 taojia5@UT
+  23 yangzon7@U
++++ON DAILYSCRUMMEETINGS+++
+  33 attarwal@U
+  28 langyu1@UT
+  32 makgabri@U
+  45 taojia5@UT
+  48 yangzon7@U
++++ON PRODUCT BACKLOG +++
+  11 attarwal@U
+   4 makgabri@U
+  41 taojia5@UT
+  25 yangzon7@U
++++ON SPRINTS+++
+  68 attarwal@U
+  14 langyu1@UT
+   1 makgabri@U
+ 138 taojia5@UT
+  61 yangzon7@U
+8007
+Part 4) SVN Commits
+
+
+On Sprints
+   1  attarwal@UTORONTO.CA 
+   6  langyu1@UTORONTO.CA 
+   1  makgabri@UTORONTO.CA 
+  23  taojia5@UTORONTO.CA 
+   7  yangzon7@UTORONTO.CA 
+
+
+On CRC Cards
+   1  attarwal@UTORONTO.CA 
+  14  langyu1@UTORONTO.CA 
+   8  makgabri@UTORONTO.CA 
+  17  taojia5@UTORONTO.CA 
+  12  yangzon7@UTORONTO.CA 
+
+
+On DailyScrumMeetings
+   1  attarwal@UTORONTO.CA 
+   6  langyu1@UTORONTO.CA 
+   5  makgabri@UTORONTO.CA 
+   4  taojia5@UTORONTO.CA 
+   5  yangzon7@UTORONTO.CA 
+
+
+On ProductBacklog
+   1  attarwal@UTORONTO.CA 
+   5  langyu1@UTORONTO.CA 
+   3  makgabri@UTORONTO.CA 
+   6  taojia5@UTORONTO.CA 
+   3  yangzon7@UTORONTO.CA 
+
+
+On source
+   1  attarwal@UTORONTO.CA 
+  18  langyu1@UTORONTO.CA 
+  21  makgabri@UTORONTO.CA 
+ 192  taojia5@UTORONTO.CA 
+  33  yangzon7@UTORONTO.CA 

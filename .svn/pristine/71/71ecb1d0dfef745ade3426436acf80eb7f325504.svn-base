@@ -1,0 +1,13 @@
+Class name: Directory
+Parent class: General
+Subclasses:
+
+Responsibilities:
+* Store general files
+* Get stored files
+* Remove a general file from itself
+* Check if a general file of given name exists in itself
+
+Collaborators:
+* File
+* General

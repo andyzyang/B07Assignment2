@@ -1,0 +1,79 @@
+==== A2 phase I marking ====
+
+Group number: 0331
+UTORID usernames of members: langyu1, makgabri, taojia5, yangzon7
+Total deductions: -3
+Grade: B+
+
+The instructor has increased your assignment 2A letter grade by +2 and your new grade is: A
+
+Your team's Phase II grade is based on this scale:
+
+    http://www.artsandscience.utoronto.ca/ofr/calendar/rules.htm#grading
+
+The way we graded is as follows: your team starts with an A+. When errors and
+problems are found, you will lose 0, 1, 2, or 3 letter steps, depending on the
+severity. As an example, if you lost two steps, your team would earn an A-:
+
+     A+ -> A
+     A -> A-
+
+You were asked to follow the Scrum process. A big part of that is to maintain
+a product backlog and a sprint backlog. 
+
+==== Product and Sprint backlogs ==== [up to -6] [0 deduction]
+No marks deducted for this section.
+
+==== Java Style ==== [up to -6] [-1 deduction]
+
+Finding lines over width 80 characters -1
+Mkdir.java:77
+Echo.java:90
+Echo.java:96
+UserInputTest.java:160
+HistoryTest.java:73
+HistoryTest.java:99
+EchoTest.java:99
+EchoTest.java:106
+LsTest.java:111
+LsTest.java:135
+LsTest.java:154
+CatTest.java:71
+CatTest.java:134
+Path.java:50
+Path.java:68
+Path.java:116
+
+==== Design ==== [up to -6] [-2 deduction]
+-redirection doesn't easily incorporate new commands -2	
+* Redirection is treated like an option for echo	
+instead of an instruction for JShell on how to handle the output
+
+
+==== Correctness ==== [up to -6] [0 deduction]
+0: -1 for every 3 failed test cases.
+
+1.  checking for file with same name as an existing directory
+	>mkdir A
+	>mkdir B
+	>find /A -type f -name "B"
+
+	Expected output:
+	>B: no such file (or similar message)
+
+	Actual output:
+	no output found 
+	
+2.  checking for non existant file
+	>mkdir /TestFolder
+	>cd TestFolder
+	>echo “hello world” > targetFile
+	>find /TestFolder -type d -name “otherFile”
+
+	Expected output:
+	>otherFile: no such file (or similar message)
+
+	Actual output:
+	No output found
+
+

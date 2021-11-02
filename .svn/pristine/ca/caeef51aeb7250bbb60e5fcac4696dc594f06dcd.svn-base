@@ -1,0 +1,11 @@
+What did I do last time?
+    - made JShell interact with the file system to get the working directory
+    - include the working path in the shell prompt
+    - add tree command
+
+What do I plan to do now?
+    - work on parsing user input for strings for the echo command
+    - make directories recursively searchable
+
+Am I blocked on anything?
+    - need to parse paths from user input

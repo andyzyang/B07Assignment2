@@ -1,0 +1,11 @@
+Class name: Exit
+Parent class: Executable
+Subclasses:
+
+Responsibilities
+* Send the exit shell signal
+* Accepts no arguments
+
+Collaborators:
+* Environment
+* InvalidArgumentException

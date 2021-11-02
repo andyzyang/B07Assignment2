@@ -1,0 +1,14 @@
+Class name: JShell
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Continuously prompt for user input and execute it
+* Prompt for user input includes the path of the working directory
+* Terminate self if command wants to quit the shell
+
+Collaborators:
+* Environment
+* Executor
+* UserInput
+* Console

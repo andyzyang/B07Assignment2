@@ -1,0 +1,12 @@
+Class name: Pwd
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Print the whole path of the current working directory
+* Does not accept any arguments
+
+Collaborators:
+* Console
+* InvalidArgumentException
+* FileSystem

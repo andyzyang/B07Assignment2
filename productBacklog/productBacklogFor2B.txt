@@ -1,0 +1,24 @@
++----+-------------------------------------------------------------------+-----+
+| #  | User story                                                        | Hrs |
++----+-------------------------------------------------------------------+-----+
+| 1  | As a user, I want to recursively list all subdirectories using    | 2.5 |
+|    | ls -R                                                             |     |
++----+-------------------------------------------------------------------+-----+
+| 2  | As a user, I want to move files using the mv command              | 2.5 |
++----+-------------------------------------------------------------------+-----+
+| 3  | As a user, I want to copy files using the cp command              | 1.5 |
++----+-------------------------------------------------------------------+-----+
+| 4  | As a user, I want to download a file using the curl command       | 2   |
++----+-------------------------------------------------------------------+-----+
+| 5  | As a user, I want to be able to redirect the output of any        | 2   |
+|    | command into a file instead of printing to the console            |     |
++----+-------------------------------------------------------------------+-----+
+| 6  | As a user, I want to re-execute a command from history using      | 1   |
+|    | !number where number is the history number of the command         |     |
++----+-------------------------------------------------------------------+-----+
+| 7  | As a user, I want to find all lines from given files that matches | 1.5 |
+|    | a given regex                                                     |     |
++----+-------------------------------------------------------------------+-----+
+| 8  | As a user, I want to find all lines from all files in given       | 1.5 |
+|    | directories recursively that matches a given regex                |     |
++----+-------------------------------------------------------------------+-----+

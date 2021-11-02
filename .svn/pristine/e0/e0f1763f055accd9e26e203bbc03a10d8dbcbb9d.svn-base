@@ -1,0 +1,8 @@
+Class name: Output
+Parent class:
+Subclasses: FileWriter, Console
+
+Responsibilities:
+* Handles output
+
+Collaborators:

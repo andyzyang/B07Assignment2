@@ -1,0 +1,10 @@
+What did I do
+	- Maintained and updated crc cards
+	- Added cp ability
+
+What I plan to do
+	- Add errors for crc cards
+	- Begin ls -R
+
+What I am blocked on
+	- Nothing really

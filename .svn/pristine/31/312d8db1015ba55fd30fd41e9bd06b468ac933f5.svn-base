@@ -1,0 +1,10 @@
+What did I do last time
+	- Discussed with Jia Qi about implementation of JShell
+	- Discussed with Jia Qi about implementation of execution
+
+What I plan to do now
+	- Finalize how execution is done
+	- Begin to work on command classes
+
+Am I blocked on anynthing
+	- Different implementation ideas leading to conflicts about how things should be coded

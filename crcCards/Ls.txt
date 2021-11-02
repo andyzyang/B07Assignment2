@@ -1,0 +1,15 @@
+Class name: Ls
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* List all file and directories in the current directory
+* List all file and directories in the path specified
+* If no arguments are given, list all files and directories in the working directory
+* Has option flag -R, if this is the second argument, list all subdirectories in the directory as well
+
+Collaborators:
+* Console
+* FileSystem
+* Directory
+* File

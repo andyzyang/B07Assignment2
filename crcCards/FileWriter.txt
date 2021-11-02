@@ -1,0 +1,9 @@
+Class name: FileWriter
+Parent class: Output
+Subclasses:
+
+Responsibilities:
+* Print to a file
+
+Collaborators:
+* File

@@ -1,0 +1,12 @@
+Class name: History
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* List the valid or invalid commands executed by the user
+* If no argument is given, print all commands
+* If an integer argument is given, print that many commands
+
+Collaborators:
+* Console
+* InvalidArgumentException

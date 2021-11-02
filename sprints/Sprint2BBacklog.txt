@@ -1,0 +1,47 @@
+//Sprint 2B Backlog.
+July 17 to July 23
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to recursively list all subdirectories using ls -R
+b) As a user, I want to move files using the cp command
+c) As a user, I want to copy files using the mv command
+d) As a user, I want to download a file using the curl command
+e) As a user, I want to be able to redirect the output of any command into a file instead of printing to the console
+f) As a user, I want to re-execute a command from history using !num where num is the history number of the command
+g) As a user, I want to find all lines from given files that matches a given regex
+h) As a user, I want to find all lines from all files in given directories recursively that matches a given regex
+
+Specific tasks to be accomplished:
+0-0. Updated CRCcards
+0-1. Maintain that all commands are working as intended
+a-1. Update ls class so that it has the option flag -R which lists all subdirectories
+a-2. Test the updated ls option flag
+b-1. Add errors for cp class
+b-2. Test the mv class
+c-1. Implement clone() for general files
+c-2. Write code that allows the user to copy one general file to a new general file, or into a directory
+c-3. Test the cp class
+e-1. Use FileWriter to handle file redirection
+f-1. Write code that allows user to re execute code using !num based on the number stored in history
+f-2. Test command re-execution method
+g-1. Write code to parse the argument to grep
+g-2. Write code that allows the user to find lines matching a given regex from given files using grep REGEX PATH ...
+g-3. Test this functionality
+h-1. Write code that allows the user to find lines matching a given regex from files in given directories recursively using grep -R REGEX PATH ...
+h-2. Test this functionality
+
+
+These tasks are assigned as follows:
+
+User: Andy
+Tasks: 0-0, 0-1, c-1, c-2, c-3, f-1, f-2
+
+User: Peter
+Tasks: 0-0, 0-1, a-1, a-2, b-1, b-2
+
+User: Gabrian
+Tasks: 0-0, 0-1, g-1, g-2, g-3, h-1, h-2
+
+User: Jia
+Tasks: 0-0, 0-1, e-1, g-1, g-2, h-1, a-1

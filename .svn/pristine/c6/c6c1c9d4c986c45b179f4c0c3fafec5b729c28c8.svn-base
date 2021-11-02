@@ -1,0 +1,61 @@
+<project name="Assignment2B">
+
+  <property name="src.dir" value="src"/>
+  <property name="test.package" value="test"/>
+  <property name="build.dir" value="build"/>
+  <property name="testbuild.dir" value="testbuild"/>
+  <property name="classes.dir" value="${build.dir}/classes"/>
+  <property name="jar.dir" value="${build.dir}/jar"/>
+  <property name="main-class" value="driver.JShell"/>
+
+  <path id="classpath.test">
+    <pathelement location="junit.jar"/>
+    <pathelement location="hamcrest-core.jar"/>
+  </path>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+    <delete dir="${testbuild.dir}"/>
+  </target>
+
+  <target name="compile" depends="clean">
+    <mkdir dir="${classes.dir}"/>
+    <javac srcdir="${src.dir}" destdir="${classes.dir}"
+      excludes="${test.package}/**" includeantruntime="false"/>
+  </target>
+
+  <target name="jar" depends="compile">
+    <mkdir dir="${jar.dir}"/>
+    <jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
+      <manifest>
+        <attribute name="Main-Class" value="${main-class}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="run" depends="jar">
+    <java jar="${jar.dir}/${ant.project.name}.jar" fork="true"/>
+  </target>
+
+  <target name="test-compile" depends="clean">
+    <mkdir dir="${testbuild.dir}"/>
+    <javac srcdir="${src.dir}" destdir="${testbuild.dir}"
+      includeantruntime="false">
+      <classpath refid="classpath.test"/>
+    </javac>
+  </target>
+
+  <target name="junit" depends="test-compile">
+    <junit printsummary="off" haltonfailure="yes" fork="true">
+      <classpath>
+        <path refid="classpath.test"/>
+        <pathelement location="${testbuild.dir}"/>
+      </classpath>
+      <formatter type="brief" usefile="false"/>
+      <batchtest>
+        <fileset dir="${src.dir}" includes="${test.package}/*Test.java"/>
+      </batchtest>
+    </junit>
+  </target>
+
+</project>

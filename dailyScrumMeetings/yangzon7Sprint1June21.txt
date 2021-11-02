@@ -1,0 +1,11 @@
+What did I do last time?
+	-Reviewed code for filesystem, cd, and pwd
+What do I plan to do now?
+	-create sprint backlog2 and work on those tasks
+	-Update crc cards
+	-communicate with the group on future tasks
+Am I blocked on anything?
+	-need everyone to be transparent
+	-Couldn't implement some of my tasks since other people worked ahead, need to communicate better
+	-Need to understand other people's implementation so need comments
+

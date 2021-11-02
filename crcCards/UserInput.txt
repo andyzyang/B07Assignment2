@@ -1,0 +1,8 @@
+Class name: UserInput
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Take in the user input and parse it accordingly
+
+Collaborators:

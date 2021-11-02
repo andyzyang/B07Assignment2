@@ -1,0 +1,51 @@
+//Sprint 3 Backlog.
+June 29 to July 2
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to be able to get the documentation of any command
+b) As a user, I want filenames to only contain 0-9, a-z, A-Z
+c) Test all user stories
+d) As a user, I want to store a string to a file
+
+Specific tasks to be accomplished:
+  0. Maintain crcCards
+a-1. Write documentation for commands
+b-1. Make sure filenames only contain 0-9, a-z, A-Z
+c-1. Test the cat command
+c-2. Test the cd command
+c-3. Test the echo command
+c-4. Test the exit command
+c-5. Test the find command
+c-6. Test the history command
+c-7. Test the ls command
+c-8. Test the man command
+c-9. Test the mkdir command
+c-10. Test the popd and pushd commands
+c-11. Test the tree command
+c-12. Test Directory
+c-13. Test File
+c-14. Test FileSystem
+c-15. Test General
+c-16. Test Path
+c-17. Test CommandMap
+c-18. Test Environment
+c-19. Test any new classes
+d-1. Add redirection to output
+d-2. Test redirection
+e-1 Add new responsibility for ls, cat
+e-2 Add new crcCards for mv, cp, cat, curl, !number and grep
+
+These tasks are assigned as follows:
+
+User: Andy
+Tasks: 0, c-19, c-2, c-7, c-10, c-13, c-14, c-15, c-17, c-18
+
+User: Peter
+Tasks: 0, c-19,  a-1, c-4, c-6, c-9, c-8
+
+User: Gabrian
+Tasks: 0, c-19, d-1, d-2, c-16, e-1, e-2
+
+User: Jia
+Tasks: 0, c-19, c-12, c-16, c-11, c-3, c-5

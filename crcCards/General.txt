@@ -1,0 +1,13 @@
+Class name: General
+Parent class:
+Subclasses: File, Directory
+
+Responsibilities:
+* Get name of file
+* Get parent of file
+* Get path of file
+* Set the name of file
+* Set the parent of file
+
+Collaborators:
+* Directory

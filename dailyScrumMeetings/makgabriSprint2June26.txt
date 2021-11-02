@@ -1,0 +1,11 @@
+What I did last time
+	- help parsing in fileSystem
+	- Talk with team about parsing methods
+	- Crc cards cleanup
+
+What I plan to do now
+	- Make sure echo and find is properly parsed
+	- Work on popd
+	- Test popd for errors
+	
+Am I blcoked on anything

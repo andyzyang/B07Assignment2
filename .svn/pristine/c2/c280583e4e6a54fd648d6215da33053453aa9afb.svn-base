@@ -1,0 +1,13 @@
+Class name: Curl
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Accepts 1 argument that is a URL
+* Collects the data at the URL into a file with the same file extension into the current directory
+* Report error if URL doesn't exist
+
+Collaborators:
+* Console
+* InvalidArgumentException
+* Environment

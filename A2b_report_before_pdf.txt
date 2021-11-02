@@ -1,0 +1,13 @@
+Assignment 2B report:
+-What design patterns have you used? And where in the assignment. Why did you
+make use of these design patterns?
+
+We used polymorphism in executables, specifically in Executable.java line 57-59,
+where any executable have their own execution method. We did it this way because
+if we fit every class's execution method all in one class then it would lead to
+spaghetti code.
+
+-If there was a significant change in your design from 2A to 2B, why was this?
+Why did you carry out this design change? Why is your new design better now?
+If you think, your design has made it easier to accommodate new customer
+requirements, explain to us why this is so. 

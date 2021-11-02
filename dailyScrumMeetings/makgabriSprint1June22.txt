@@ -1,0 +1,10 @@
+What did I work on last time?
+	- Fofucsed on CRC card finalization
+	- Collaborators for crc cards
+	- Little late on commiting this file
+
+What I plan to do now
+	- Help with user parsing input
+
+Am I blocked on anything
+	- Team doesn't communicate at all, suddenly find things changed and don't know how to collaborate

@@ -1,0 +1,17 @@
+Class name: Mv
+Parent class: Executable
+Subclasses:
+
+Responsibilities:
+* Accepts exactly 2 arguments
+* Move object in first argument to the path in the second argument
+* If the first argument is a directory, move everything in the directory recursively
+* Report error if first argument doesn't exist
+* Report error if second argument doesn't exist
+
+Collaborators:
+* Console
+* File
+* Directory
+* InvalidArgumentException
+* Environment

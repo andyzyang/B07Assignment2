@@ -1,0 +1,12 @@
+Class name: Executor
+Parent classes:
+
+Responsibilities:
+* Executes an executable based on the user's input command
+* Display errors thrown during execution as error messages
+* Add user input executions to history
+
+Collaborators:
+* InvalidCommandException
+* Environment
+* UserInput
